@@ -108,7 +108,7 @@ export default function Home() {
     <main className="min-h-screen bg-background">
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center text-center px-4">
+      <section className="relative min-h-screen md:h-screen flex items-center justify-center text-center px-4">
         <div className="max-w-3xl mx-auto">
           <Avatar className="w-36 h-36 mx-auto mb-8">
             <AvatarImage src="/img/profile/daniel1.png" />
@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </div>
         <a href="#about">
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce mb-11">
             <ChevronDown className="h-8 w-8 text-muted-foreground" />
           </div>
         </a>
