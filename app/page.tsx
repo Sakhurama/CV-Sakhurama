@@ -112,7 +112,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <Avatar className="w-36 h-36 mx-auto mb-8">
             <AvatarImage src="/img/profile/daniel1.png" />
-            <AvatarFallback>JP</AvatarFallback>
+            <AvatarFallback>Daniel Romero</AvatarFallback>
           </Avatar>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Hi, I&apos;m <span className="text-primary">Daniel</span>
@@ -135,13 +135,15 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ChevronDown className="h-8 w-8 text-muted-foreground" />
-        </div>
+        <a href="#about">
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <ChevronDown className="h-8 w-8 text-muted-foreground" />
+          </div>
+        </a>
       </section>
 
       {/* About Section */}
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-20 px-4 bg-muted/30" id="about">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
           <div className="grid md:grid-cols-2 gap-8">
