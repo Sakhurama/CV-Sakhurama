@@ -136,8 +136,8 @@ export default function Home() {
           </div>
         </div>
         <a href="#about">
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce mb-11">
-            <ChevronDown className="h-8 w-8 text-muted-foreground" />
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce mb-14">
+            <ChevronDown className="h-10 w-10 text-muted-foreground" />
           </div>
         </a>
       </section>
