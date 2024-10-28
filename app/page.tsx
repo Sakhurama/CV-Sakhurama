@@ -153,11 +153,19 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Designer with a strong foundation in UI and UX, and a 
-                  Junior Frontend Developer. I’m constantly learning and 
-                  applying new skills every day. I have experience building 
-                  web projects with React and Next.js, and possess solid 
-                  knowledge in HTML and CSS.
+                  Junior Frontend Developer and Designer with knowledge in UI and UX. 
+                  I’m constantly learning and applying new skills. I have 
+                  experience building web projects with React and Next.js, 
+                  and possess solid knowledge in HTML and CSS. 
+                  <br /> 
+                  <br />
+                  I am also skilled in reviewing user interfaces and 
+                  proposing improvements grounded in solid design principles. 
+                  Additionally, I can translate these ideas 
+                  into high-fidelity prototypes in Figma and implement 
+                  the designs directly into code, 
+                  ensuring that design solutions are both visually 
+                  appealing and user-centered.
                 </p>
               </CardContent>
             </Card>
@@ -166,18 +174,18 @@ export default function Home() {
                 <CardTitle>Experience</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col gap-6">
-                {experiences.map((experience, index) => (
+                {experiences.map((nepe, index) => (
                   <div 
                     key={index} 
                     className="flex justify-between items-center border-b border-red pb-4"
                   >
                     <div>
-                      <p>{experience.title}</p>
-                      <p className="text-muted-foreground">{experience.company}</p>
+                      <p>{nepe.title}</p>
+                      <p className="text-muted-foreground">{nepe.company}</p>
                     </div>
                     <div className="text-center">
-                      <p>{experience.period}</p>
-                      <p className="text-muted-foreground">{experience.duration}</p>
+                      <p>{nepe.period}</p>
+                      <p className="text-muted-foreground">{nepe.duration}</p>
                     </div>
                   </div>
                 ))}
