@@ -152,7 +152,7 @@ export default function Home() {
                 <CardTitle>Profile</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
+                <p className="text-[#292929]">
                   Junior Frontend Developer and Designer with knowledge in UI and UX. 
                   I’m constantly learning and applying new skills. I have 
                   experience building web projects with React and Next.js, 
@@ -160,7 +160,9 @@ export default function Home() {
                   <br /> 
                   <br />
                   I am also skilled in reviewing user interfaces and 
-                  proposing improvements grounded in solid design principles. 
+                  proposing improvements grounded in solid design principles.
+                  <br />
+                  <br />
                   Additionally, I can translate these ideas 
                   into high-fidelity prototypes in Figma and implement 
                   the designs directly into code, 
