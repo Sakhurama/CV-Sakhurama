@@ -30,23 +30,29 @@ export default function Home() {
 
   const experiences = [
     {
-      title: "Creative Designer",
-      company: "Skolmi",
-      period: "Aug 2018 - May 2024",
-      duration: "(5 years)"
+      title: "Frontend Dev Jr",
+      company: "Logic Solutions",
+      period: "Dec 2024 - Present",
+      duration: "(3 months)"
     },
     {
       title: "Frontend Dev Jr",
       company: "Skolmi",
       period: "May 2024 - Present",
-      duration: "(6 months)"
+      duration: "(10 months)"
     },
     {
       title: "Frontend Dev Jr",
       company: "Medusa Lab",
       period: "Jun 2024 - Sep 2024",
       duration: "(3 months)"
-    }
+    },
+    {
+      title: "Creative Designer",
+      company: "Skolmi",
+      period: "Aug 2018 - May 2024",
+      duration: "(5 years)"
+    },
   ];
 
   const technologies = [
